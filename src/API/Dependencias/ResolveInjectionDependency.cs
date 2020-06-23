@@ -4,10 +4,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Negocio.Interfaces;
 using Negocio.Notifications;
 using Negocio.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace API.Dependencias
 {
@@ -18,8 +14,12 @@ namespace API.Dependencias
             services.AddScoped<ModeloDbContext>();
 
             services.AddScoped<IEntidadeRepository, EntidadeRepository>();
+            services.AddScoped<IEnderecoRepository, EnderecoRepository>();
+            services.AddScoped<ISolicitacaoRepository, SolicitacaoRepository>();
 
             services.AddScoped<IEntidadeService, EntidadeService>();
+            services.AddScoped<IEnderecoService, EnderecoService>();
+            services.AddScoped<ISolicitacaoService, SolicitacaoService>();
 
             services.AddScoped<INotificador, Notificador>();
 

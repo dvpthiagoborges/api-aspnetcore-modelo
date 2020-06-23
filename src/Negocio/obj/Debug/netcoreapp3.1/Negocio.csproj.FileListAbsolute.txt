@@ -7,3 +7,12 @@ D:\Projetos\projetos-aspnet\web-api-modelo\ApiModelo\src\Negocio\obj\Debug\netco
 D:\Projetos\projetos-aspnet\web-api-modelo\ApiModelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.dll
 D:\Projetos\projetos-aspnet\web-api-modelo\ApiModelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.pdb
 D:\Projetos\projetos-aspnet\web-api-modelo\ApiModelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.csprojAssemblyReference.cache
+D:\Projetos\projetos-aspnet\api-aspnetcore-modelo\src\Negocio\bin\Debug\netcoreapp3.1\Negocio.deps.json
+D:\Projetos\projetos-aspnet\api-aspnetcore-modelo\src\Negocio\bin\Debug\netcoreapp3.1\Negocio.dll
+D:\Projetos\projetos-aspnet\api-aspnetcore-modelo\src\Negocio\bin\Debug\netcoreapp3.1\Negocio.pdb
+D:\Projetos\projetos-aspnet\api-aspnetcore-modelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.csprojAssemblyReference.cache
+D:\Projetos\projetos-aspnet\api-aspnetcore-modelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.csproj.CoreCompileInputs.cache
+D:\Projetos\projetos-aspnet\api-aspnetcore-modelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.AssemblyInfoInputs.cache
+D:\Projetos\projetos-aspnet\api-aspnetcore-modelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.AssemblyInfo.cs
+D:\Projetos\projetos-aspnet\api-aspnetcore-modelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.dll
+D:\Projetos\projetos-aspnet\api-aspnetcore-modelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.pdb

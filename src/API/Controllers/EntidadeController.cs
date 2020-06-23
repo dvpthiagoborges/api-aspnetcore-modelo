@@ -27,13 +27,6 @@ namespace API.Controllers
             _mapper = mapper;
         }
 
-        //[HttpGet]
-        //public async Task<IEnumerable<EntidadeViewModel>> ObterTodos()
-        //{
-        //var entidade = _mapper.Map<IEnumerable<EntidadeViewModel>>(await _entidadeRepository.ObterTodos());
-        //    return entidade;
-        //}
-
         [HttpGet]
         public async Task<IEnumerable<EntidadeViewModel>> ObterTodos()
         {

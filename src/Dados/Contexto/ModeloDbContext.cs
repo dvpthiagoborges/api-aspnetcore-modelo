@@ -26,5 +26,13 @@ namespace Dados.Contexto
 
             base.OnModelCreating(modelBuilder);
         }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            // Configurar isso apenas em ambiente de desenvolvimento para evitar exibição de dados sensiveis ao usuário
+            optionsBuilder.EnableSensitiveDataLogging();
+
+            base.OnConfiguring(optionsBuilder);
+        }
     }
 }
