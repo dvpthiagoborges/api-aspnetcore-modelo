@@ -16,3 +16,12 @@ D:\Projetos\projetos-aspnet\api-aspnetcore-modelo\src\Negocio\obj\Debug\netcorea
 D:\Projetos\projetos-aspnet\api-aspnetcore-modelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.AssemblyInfo.cs
 D:\Projetos\projetos-aspnet\api-aspnetcore-modelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.dll
 D:\Projetos\projetos-aspnet\api-aspnetcore-modelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.pdb
+C:\Users\CDS01\Source\Repos\api-aspnetcore-modelo\src\Negocio\bin\Debug\netcoreapp3.1\Negocio.deps.json
+C:\Users\CDS01\Source\Repos\api-aspnetcore-modelo\src\Negocio\bin\Debug\netcoreapp3.1\Negocio.dll
+C:\Users\CDS01\Source\Repos\api-aspnetcore-modelo\src\Negocio\bin\Debug\netcoreapp3.1\Negocio.pdb
+C:\Users\CDS01\Source\Repos\api-aspnetcore-modelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.csprojAssemblyReference.cache
+C:\Users\CDS01\Source\Repos\api-aspnetcore-modelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.AssemblyInfoInputs.cache
+C:\Users\CDS01\Source\Repos\api-aspnetcore-modelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.AssemblyInfo.cs
+C:\Users\CDS01\Source\Repos\api-aspnetcore-modelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\CDS01\Source\Repos\api-aspnetcore-modelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.dll
+C:\Users\CDS01\Source\Repos\api-aspnetcore-modelo\src\Negocio\obj\Debug\netcoreapp3.1\Negocio.pdb

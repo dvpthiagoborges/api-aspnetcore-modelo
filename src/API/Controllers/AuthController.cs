@@ -12,6 +12,9 @@ namespace API.Controllers
     [Route("api")]
     public class AuthController : MainController
     {
+        //private readonly SignInManager<IdentityUser> _signInManager;
+        //private readonly UserManager<IdentityUser> _userManager;
+
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
 
