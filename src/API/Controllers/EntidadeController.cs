@@ -1,5 +1,6 @@
 ﻿using API.ViewModels;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Negocio.Interfaces;
 using Negocio.Models;
@@ -10,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace API.Controllers
 {
+    [Authorize]
     [Route("api/entidade")]
     public class EntidadeController : MainController
     {

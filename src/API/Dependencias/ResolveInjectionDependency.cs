@@ -1,6 +1,8 @@
 ﻿using Dados.Contexto;
 using Dados.Repository;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Negocio.Interfaces;
 using Negocio.Notifications;
 using Negocio.Services;
