@@ -1,6 +1,7 @@
 ﻿using API.Data;
 using API.Extensions;
 using Microsoft.AspNetCore.Identity;
+//using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -22,8 +23,13 @@ namespace API.Dependencias
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
             });
 
-            services.AddIdentityCore<IdentityUser>()
-                .AddRoles<IdentityRole>()
+            //services.AddIdentityCore<IdentityUser>()
+            //    .AddRoles<IdentityRole>()
+            //    .AddEntityFrameworkStores<ApplicationDbContext>()
+            //    .AddErrorDescriber<IdentityMensagensPortugues>()
+            //    .AddDefaultTokenProviders();
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddErrorDescriber<IdentityMensagensPortugues>()
                 .AddDefaultTokenProviders();
