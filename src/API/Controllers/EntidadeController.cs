@@ -1,4 +1,5 @@
-﻿using API.ViewModels;
+﻿using API.Extensions;
+using API.ViewModels;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -44,6 +45,7 @@ namespace API.Controllers
             return entidade;
         }
 
+        [ClaimsAuthorize("Entidade", "Adicionar")]
         [HttpPost]
         public async Task<ActionResult<EntidadeViewModel>> Adicionar([FromBody]EntidadeViewModel entidadeViewModel)
         {
@@ -52,6 +54,7 @@ namespace API.Controllers
             return CustomResponse(entidadeViewModel);
         }
 
+        [ClaimsAuthorize("Entidade","Atualizar")]
         [HttpPut("{id:guid}")]
         public async Task<ActionResult<EntidadeViewModel>> Atualizar(Guid id, [FromBody]EntidadeViewModel entidadeViewModel)
         {
@@ -66,6 +69,7 @@ namespace API.Controllers
             return CustomResponse(entidadeViewModel);
         }
 
+        [ClaimsAuthorize("Entidade", "Excluir")]
         [HttpDelete("{id:guid}")]
         public async Task<ActionResult<EntidadeViewModel>> Excluir(Guid id)
         {
