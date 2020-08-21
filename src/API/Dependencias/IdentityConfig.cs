@@ -6,11 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace API.Dependencias
 {
@@ -24,12 +20,6 @@ namespace API.Dependencias
             {
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
             });
-
-            //services.AddIdentityCore<IdentityUser>()
-            //    .AddRoles<IdentityRole>()
-            //    .AddEntityFrameworkStores<ApplicationDbContext>()
-            //    .AddErrorDescriber<IdentityMensagensPortugues>()
-            //    .AddDefaultTokenProviders();
 
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
